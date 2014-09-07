@@ -1,4 +1,4 @@
-FROM ubuntu:quantal
+FROM ubuntu:12.04
 MAINTAINER luxifer "luxifer666@gmail.com"
 
 RUN LC_ALL=C DEBIAN_FRONTEND=noninteractive \
