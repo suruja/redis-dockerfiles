@@ -11,3 +11,5 @@ RUN LC_ALL=C DEBIAN_FRONTEND=noninteractive \
 	rm /usr/sbin/policy-rc.d
 
 ADD start_redis.sh /usr/bin/start_redis.sh
+
+EXPOSE 6379
